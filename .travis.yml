@@ -1,9 +1,11 @@
+language: node_js
+before_script:
+  - npm install -g gatsby
+node_js:
+  - "10"
 deploy:
-  provider: pages:git
-  repo:'mj-blog'
-  language:node_js
-  cache:npm 
-  skip-cleanup:true
-  github-token:$GITHUB_TOKEN
+  provider: script
+  script: cd docs/ && yarn install && yarn run deploy
+  skip_cleanup: true
   on:
-    branch:master
+    branch: master
