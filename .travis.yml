@@ -1,0 +1,9 @@
+deploy:
+  provider: pages:git
+  repo:'mj-blog'
+  language:node_js
+  cache:npm 
+  skip-cleanup:true
+  github-token:$GITHUB_TOKEN
+  on:
+    branch:gh-pages
