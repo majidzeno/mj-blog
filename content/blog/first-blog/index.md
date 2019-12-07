@@ -1,7 +1,7 @@
 ---
 title: Welcoming mesg
 date: "2019-12-07"
-description: "Stupid out description"
+description: "Stupid out description "
 ---
 
 This is my first post on my new fake blog! How exciting!
