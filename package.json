@@ -22,8 +22,6 @@
     "gatsby-source-filesystem": "^2.1.39",
     "gatsby-transformer-remark": "^2.6.38",
     "gatsby-transformer-sharp": "^2.3.6",
-    "gh-pages-cli": "0.2.0",
-    "npm i gh-pages-clih-pages": "2.1.1",
     "prismjs": "^1.17.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -54,7 +52,6 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public https://$GITHUB_TOKEN@github.com/majidzeno/mj-blog.git"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   }
 }
