@@ -3,7 +3,7 @@ module.exports = {
     title: `mj-blog`,
     author: `Majid Eltayeb`,
     description: `Daily Snaps`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://majidzeno.github.io/mj-blog`,
     social: {
       twitter: `kylemathews`,
     },
