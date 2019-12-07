@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "mj-blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Daily Snaps",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "Majid Eltayeb",
   "dependencies": {
     "gatsby": "^2.18.4",
     "gatsby-image": "^2.2.34",
@@ -38,15 +35,15 @@
   "devDependencies": {
     "prettier": "^1.19.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "majidzeno/mj-blog.git#readme",
   "keywords": [
-    "gatsby"
+    "mj-blog"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/majidzeno/mj-blog.git"
   },
   "scripts": {
     "build": "gatsby build",
